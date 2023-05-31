@@ -5,8 +5,9 @@ class Figure
 {
 
 public:
-	double calculatePerimeter();
-	double calculateSquare();
-	string description();
+	virtual  double calculatePerimeter();
+	virtual double calculateSquare();
+	virtual string description();
+	virtual string draw() = 0;
 };
 

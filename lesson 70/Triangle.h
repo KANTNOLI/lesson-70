@@ -19,5 +19,5 @@ public:
 	double calculatePerimeter();
 	double calculateSquare();
 	string description();
+	string draw();
 };
-

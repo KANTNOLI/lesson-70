@@ -10,3 +10,4 @@ double Figure::calculateSquare() {
 string Figure::description() {
 	return "Unknouwn Figure.";
 }
+

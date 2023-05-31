@@ -21,5 +21,9 @@ double Triangle::calculateSquare() {
 	return a * b;
 }
 string Triangle::description() {
-	return "This is Treangle."
+	return "This is Treangle.";
+}
+
+string Triangle::draw() {
+	return "Triangle is been drawing...";
 }
